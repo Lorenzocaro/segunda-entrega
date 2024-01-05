@@ -98,6 +98,11 @@ h2 {
 
 /*FOOTER*/
 
-.footer {
-    background-color: black;
+footer {
+   background-color:#C9C9C9 ;
+}
+
+.logoApps {
+    height: 60px;
+    width: 60px;
 }
