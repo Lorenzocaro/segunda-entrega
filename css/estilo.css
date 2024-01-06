@@ -149,3 +149,11 @@ p {
 .card {
     margin-right: 0px;
 }
+
+/*Usados*/
+
+.card-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
