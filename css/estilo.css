@@ -53,6 +53,7 @@ h2 {
     font-size: 1.5rem;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .me-2 {
@@ -156,4 +157,33 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+/*Contacto*/
+
+.formulario {
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.formContacto {
+    text-transform: uppercase;
+}
+
+.barraContacto {
+    border: solid black 1px;
+}
+
+.btnForm {
+    border: solid black 1px;
+}
+
+.btnContacto {
+    background-color: #F50B00;
+    color: white;
+    border: white;
+}
+
+.btnContacto:hover {
+    background-color: #C22F27;
 }
