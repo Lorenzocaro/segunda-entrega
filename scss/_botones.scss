@@ -1,47 +1,47 @@
 /*Botones*/
 
 .btnInfo {
-    background-color: #f50b00;
-    color: white;
+    background-color: $color-botones;
+    color: $color-fuentes;
 
     &:hover {
-        background-color: #C22F27;
+        background-color: $color-hover;
     }
 }
 
 .btn-outline-success {
-    background-color: #F50B00;
-    color: white;
-    border: white;
+    background-color: $color-botones;
+    color: $color-fuentes;
+    border: $color-fuentes;
 
     &:hover {
-        background-color: #C22F27;
+        background-color: $color-hover;
     }
 }
 
 .btn0km {
-    background-color: #F50B00;
-    color: white;
+    background-color: $color-botones;
+    color: $color-fuentes;
 
     &:hover {
-        background-color: #C22F27;
+        background-color: $color-hover;
     }
 }
 
 .btnMarcas:hover {
-    background-color: #C22F27;
+    background-color: $color-hover;
 }
 
 .btnForm {
-    border: solid black 1px;
+    border: $bordes;
 }
 
 .btnContacto {
-    background-color: #F50B00;
-    color: white;
-    border: white;
+    background-color: $color-botones;
+    color: $color-fuentes;
+    border: $color-fuentes;
 
     &:hover {
-        background-color: #C22F27;
+        background-color: $color-hover;
     }
 }

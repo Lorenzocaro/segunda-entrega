@@ -1,5 +1,6 @@
 body {
   font-family: 'poppins', sans-serif;
+  background-color: $color-fondo;
 }
 
 
@@ -20,6 +21,10 @@ body {
 .navbar {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.barraBusqueda {
+  border: $bordes;
 }
 
 h2 {

@@ -1,3 +1,201 @@
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #F2F2F2;
+}
 
+/*Carrousel*/
+.d-block {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/*Buscador*/
+.buscador {
+  margin-top: 30px;
+}
+
+.navbar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.barraBusqueda {
+  border: 1px solid black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.me-2 {
+  width: 600px;
+  align-items: center;
+}
+
+/*Header*/
+.imgLogo {
+  width: 150px;
+  height: 100%;
+}
+
+.header {
+  background-color: black;
+  margin-top: 0px;
+  height: 100%;
+}
+
+.nav-link {
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.nav-item {
+  width: 150px;
+}
+
+.nav-item-final {
+  border-top-right-radius: 10px;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  background-color: #f50b00;
+  color: white;
+}
+
+/*Usados y 0km*/
+.row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  border-color: #C9C9C9;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.menuMarcas {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.item0km {
+  background-color: #f50b00;
+  color: white;
+}
+
+.card {
+  margin-right: 0px;
+}
+
+.card-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*Botones*/
+.btnInfo {
+  background-color: #f50b00;
+  color: white;
+}
+.btnInfo:hover {
+  background-color: #C22F27;
+}
+
+.btn-outline-success {
+  background-color: #f50b00;
+  color: white;
+  border: white;
+}
+.btn-outline-success:hover {
+  background-color: #C22F27;
+}
+
+.btn0km {
+  background-color: #f50b00;
+  color: white;
+}
+.btn0km:hover {
+  background-color: #C22F27;
+}
+
+.btnMarcas:hover {
+  background-color: #C22F27;
+}
+
+.btnForm {
+  border: 1px solid black;
+}
+
+.btnContacto {
+  background-color: #f50b00;
+  color: white;
+  border: white;
+}
+.btnContacto:hover {
+  background-color: #C22F27;
+}
+
+.formulario {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.formContacto {
+  text-transform: uppercase;
+}
+
+.barraContacto {
+  border: 1px solid black;
+}
+
+/*MAPA*/
+.ubicacion {
+  border: 3px solid black;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.mapa {
+  border-radius: 15px;
+  height: 600px;
+  width: 100%;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #F2F2F2;
+}
+
+p {
+  text-align: center;
+  color: #808080;
+}
+
+.logoApps {
+  height: 60px;
+  width: 60px;
+}
 
 /*# sourceMappingURL=estilo.css.map */
