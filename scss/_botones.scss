@@ -1,12 +1,7 @@
 /*Botones*/
 
 .btnInfo {
-    background-color: $color-botones;
-    color: $color-fuentes;
-
-    &:hover {
-        background-color: $color-hover;
-    }
+    @include botones
 }
 
 .btn-outline-success {
@@ -20,12 +15,7 @@
 }
 
 .btn0km {
-    background-color: $color-botones;
-    color: $color-fuentes;
-
-    &:hover {
-        background-color: $color-hover;
-    }
+   @include botones
 }
 
 .btnMarcas:hover {

@@ -2,3 +2,12 @@
     height: 60px;
     width: 60px;
 }
+
+@mixin botones {
+    background-color: $color-botones;
+    color: $color-fuentes;
+    
+    &:hover {
+        background-color: $color-hover;
+    }
+}
