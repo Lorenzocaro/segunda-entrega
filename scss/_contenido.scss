@@ -11,8 +11,18 @@
     border-radius: $border-radius-general;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: $color-fondo;
+    background:linear-gradient($color-botones, $color-fuentes, #919191, black );
 }
+
+.card-text {
+    color: $color-fuentes;
+  }
+
+.cardUsados {
+    color:$color-fuentes
+}
+
+/*background-color: $color-fondo;*/
 
 .titulo {
     text-align: center;

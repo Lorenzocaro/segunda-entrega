@@ -81,9 +81,18 @@ h2 {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #F2F2F2;
+  background: linear-gradient(#f50b00, white, #919191, black);
 }
 
+.card-text {
+  color: white;
+}
+
+.cardUsados {
+  color: white;
+}
+
+/*background-color: $color-fondo;*/
 .titulo {
   text-align: center;
   font-size: 1.5rem;

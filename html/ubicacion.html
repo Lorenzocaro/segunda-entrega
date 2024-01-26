@@ -13,6 +13,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <!--AOS-->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--CSS Propio-->
+
     <link rel="stylesheet" href="../css/estilo.css">
 
 </head>
@@ -57,7 +63,7 @@
     <div>
         <h1 class="titulo">¿Donde estamos?</h1>
 
-        <div class="ubicacion">
+        <div data-aos="flip-down" class="ubicacion">
             <iframe class="mapa"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.822879610407!2d-64.2523467!3d-31.391447000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329f2f10e90e1b%3A0xac3665b1f0be34d5!2sCumpeo%205564%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1701917546225!5m2!1ses-419!2sar"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -106,9 +112,20 @@
         </footer>
     </div>
 
+    <!--BOOTSTRAP-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
         </script>
+
+    <!--AOS-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
