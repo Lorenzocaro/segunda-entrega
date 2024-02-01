@@ -3,6 +3,7 @@
 .row {
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .card {
@@ -21,8 +22,6 @@
 .cardUsados {
     color:$color-fuentes
 }
-
-/*background-color: $color-fondo;*/
 
 .titulo {
     text-align: center;
